@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 const footerLinks = [
@@ -21,8 +20,8 @@ export default function Footer() {
               Priyanka<span>.</span>
             </Link>
             <p>
-              Building thoughtful and user-friendly web experiences
-              with React and modern frontend technologies.
+              Building thoughtful and user-friendly web experiences with React
+              and modern frontend technologies.
             </p>
           </div>
 
@@ -53,9 +52,7 @@ export default function Footer() {
             >
               LinkedIn ↗
             </a>
-            <a href="mailto:priyankadoif@gmail.com">
-              Email ↗
-            </a>
+            <a href="mailto:priyankadoif@gmail.com">Email ↗</a>
           </div>
         </div>
 
@@ -64,9 +61,7 @@ export default function Footer() {
           <a href="#home" className="back-to-top">
             Back to top ↑
           </a>
-          <p className="footer-credit">
-            Designed & built with Next.js
-          </p>
+          <p className="footer-credit">Designed & built with Next.js</p>
         </div>
       </div>
     </footer>
